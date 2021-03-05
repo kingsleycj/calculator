@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        .row, .col, .col-2{
+            border: 0px solid black;
+            height: 50px;
+            width: 300px;
+            box-sizing: border-box;
+            text-align: center;
+            margin-top: 0px;
+        }
+
+        .col-6{
+            height: 50px;
+            border: 1px solid black;
+        }
+
+        .col-4{
+            border: 1px solid black;
+            height: 300px;
+            width: 300px;
+        }
+
+        .display-result{
+            height:80px;
+            border: 0px solid black;
+            width: 100%;
+            justify-content: flex-end;
+            margin-top: 0px;
+            margin-bottom: 10px;
+            padding: 0 auto;
+            background-color: white;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            flex-direction: flex-;        
+            
+        }
+
+        .contain{
+            background-color: #eee;
+            width: 300px;
+            
+            border: 0px solid black;
+            box-shadow: 0px 0px 3px 3px rgba(0,0,0, 0.5);
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+
+        }
+
+       
+
+        .btn{
+            height: 40px;
+            width: 50;
+            border: 1px solid white ;
+        
+        }
+
+        .btn:hover{
+            color: #f5f;
+        }
+
+        body{
+            background-color: black;
+        }
+        
+    </style>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container min-vh-100 d-flex align-items-center justify-content-center">
+        <div class="contain">
+        <div class="display-result">
+            244
+        </div>
+        <div class="btn-wrapper">
+            <div class="row">
+                <div class="col btn">MC</div>
+                <div class="col btn">MR</div>
+                <div class="col btn">M+</div>
+                <div class="col btn">/</div>
+            </div>
+            <div class="row">
+                <div class="col btn">7</div>
+                <div class="col btn">8</div>
+                <div class="col btn">9</div>
+                <div class="col btn">*</div>
+            </div>
+            <div class="row">
+                <div class="col btn">4</div>
+                <div class="col btn">5</div>
+                <div class="col btn">6</div>
+                <div class="col btn">-</div>
+            </div>
+            <div class="row">
+                <div class="col btn">1</div>
+                <div class="col btn">2</div>
+                <div class="col btn">3</div>
+                <div class="col btn">+</div>
+        </div>
+            <div class="row">
+                <div class="col-6 btn">0</div>
+                <div class="col btn">.</div>
+                <div class="col btn">=</div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
